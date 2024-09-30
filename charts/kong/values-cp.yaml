@@ -24,7 +24,7 @@ env:
  pg_user: kong
  pg_password: demo123
  pg_host: kong-cp-postgresql.kong.svc.cluster.local
- pg_ssl: "on"
+ pg_ssl: "off"
   
  # Kong Manager password
  password: kong_admin_password
